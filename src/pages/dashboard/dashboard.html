@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+		<img src="assets/imgs/logo-login.svg" class="logo_dashboard">
+	</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding class="container_dashboard vertical-align-content" >
+	<div class="fondos_disponibles">
+		<p>Fondos disponibles $</p>
+	</div>
+	<ion-grid>
+		<ion-row>
+			<ion-col col-6>
+				<img src="assets/imgs/anadir-fondos.svg" class="Añadir Fondos" (click)="addmoney()">
+			</ion-col>
+			<ion-col col-6>
+				<img src="assets/imgs/transferencias.svg" class="Transferencias" (click)="transfer()">
+			</ion-col>
+			<ion-col col-6>
+				<img src="assets/imgs/retiros.svg" class="Retiros" (click)="withdrawal()">
+			</ion-col>
+			<ion-col col-6>
+				<img src="assets/imgs/adelantos.svg" class="Adelantos" (click)="advance()">
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>
+
+<ion-footer>
+	<ion-toolbar color="primary">
+		<ion-tabs>
+			<ion-tab tabTitle="Home"></ion-tab>
+			<ion-tab tabTitle="Datos personales"></ion-tab>
+			<ion-tab tabTitle="Ayuda"></ion-tab>
+		</ion-tabs>
+	</ion-toolbar>
+</ion-footer>

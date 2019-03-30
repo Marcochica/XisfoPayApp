@@ -1,0 +1,34 @@
+page-dashboard {
+
+}
+.logo_dashboard{
+	max-width:40%;
+    display:block;
+    margin:auto;
+}
+.container_dashboard{
+    background:#ffffff !important;
+}
+.fondos_disponibles{
+	background:#62c4e1;
+}
+.container_dashboard .scroll-content{
+	padding:0 !important;
+}
+.fondos_disponibles>p{
+	margin:0 !important;
+	padding:12px 0;
+}
+.tabbar{
+	opacity: 1 !important;
+    background:#144294 !important;
+}
+.tabbar a{
+	color:#ffffff !important;
+}
+.grid{
+	display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height:89%;
+}

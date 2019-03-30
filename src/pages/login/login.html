@@ -1,0 +1,26 @@
+<ion-content padding>
+	<img src="assets/imgs/logo-login.svg">
+	<ion-list>
+		<ion-item>
+			<ion-label stacked>Email</ion-label>
+			<ion-input type="text" value="" #username></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label stacked>Contraseña</ion-label>
+			<ion-input type="password" #password></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label class="title_remember">Recordar mis datos</ion-label>
+			<ion-checkbox></ion-checkbox>
+		</ion-item>
+	</ion-list>
+	<div padding>
+		<button block ion-button round color="actions" (tap)="dashboard()" >INICIAR SESIÓN</button>
+	</div>
+	<div>
+		<a href="">¿Olvidó su Contraseña?</a>
+	</div>
+	<div class="content_btn_tyc">
+		<a href="" class="btn_tyc">Términos y Condiciones</a>
+	</div>
+</ion-content>

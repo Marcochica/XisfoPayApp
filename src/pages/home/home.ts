@@ -15,4 +15,8 @@ export class HomePage {
 		public navParams: NavParams
 	) {}
 
+	login(): void {
+		this.navCtrl.setRoot('LoginPage');
+	}
+
 }

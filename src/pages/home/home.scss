@@ -1,1 +1,32 @@
-page-home {}
+page-home {
+
+	.slides	{
+		.swiper-slide {
+			background:#144294;
+
+			img {
+				height: 100%;
+				width: 100%;
+			}
+
+			p { color:#ffffff; }
+
+			.btn_ingresar {
+				box-shadow: 2px 2px 5px rgba(#000, 0.7);
+			}
+		}
+
+		.swiper-pagination {
+			bottom: 2em;
+		}
+
+		.swiper-pagination-bullet {
+			padding: 0.5em;
+		}
+
+		.swiper-pagination-bullet-active {
+			background: #ffcf00;
+		}
+	}
+
+}
